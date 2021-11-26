@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Details</title>
+</head>
+
+<body>
+  <p>Email: Amjad_khaneng@yahoo.com.</p>
+  <p>Phone : 4372883748.</p>
+  <form action="mailto:amjad_khaneng@yahoo.com" method="post" enctype="text/plain">
+    <!-- in the action attribute here if the "index.html is not changed to mailto:amjad-khaneng@yahoo.com once submit button is clicked it will take our user on the website to the main webpage-->
+    <!-- we have removed class="" attribute and added enctype="text/plain" so that the data thats being sent to our email client is plain text and does not have any other percentile etc symbols-->
+    <label for="">Your name :</label>
+    <input type="text" name=" Your name" value="">
+    <!-- in the name attribute here we mention some value as "Your Name" and similarly we mention Your email in Email attribute below and Your message in Message attribute below.
+    This when done classisfies the submitted data by a user on our website automatically and displays it accordingly in the mail client we mentioned above-->
+    <input type="submit" name=""> <br>
+    <br>
+    <label for="">Your Email :</label>
+    <input type="email" name=" Your Email " value=""> <br>
+    <br>
+    <label for=""> Your Message</label> <br>
+    <textarea name="Your Message" rows="5" cols="80"></textarea> <br>
+    <input type="submit" name="">
+
+  </form>
+  
+</body>
+
+</html>
